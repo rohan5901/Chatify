@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <title>chatify|| chat with your friends</title>
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="icon.png" alt="" />
+      <h1>Welcome to Chatify</h1>
+    </nav>
+
+    <div class="container">
+      <!-- <div class="message right">harry:how r u?</div>
+      <div class="message left">rohan: i m f9</div> -->
+    </div>
+
+    <div class="send" contenteditable="true">
+      <form action="#" id="send-container">
+        <ul>
+          <li class="bold">B</li>
+          <li class="italic">I</li>
+          <li class="stikeThrough">S</li>
+        </ul>
+        <input
+          type="text"
+          name="MessageInp"
+          id="messageInp"
+          placeholder="chat comes here..."
+        />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
